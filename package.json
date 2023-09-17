@@ -1,7 +1,7 @@
 {
   "name": "landing",
   "version": "0.1.0",
-  "homepage": "https://yokwejuste.github.io/djangocameroon-landing",
+  "homepage": "https://pending.djangocameroon.site/",
   "private": true,
   "dependencies": {
     "@types/node": "^15.14.9",
