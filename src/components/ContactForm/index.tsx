@@ -13,10 +13,9 @@ import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 import axios from "axios";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
-
   const [name, setName] = useState("");
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendMessage = () => {
     const data = {
@@ -25,11 +24,16 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
       message: message,
     };
 
-    axios.defaults.headers.post['Content-Type'] = 'application/json';
-    axios.post('https://formsubmit.co/ajax/dff2a97d12f52707765af962b62c774f', data);
+    axios.defaults.headers.post["Content-Type"] = "application/json";
+    axios.post(
+      "https://formsubmit.co/ajax/dff2a97d12f52707765af962b62c774f",
+      data
+    );
   };
 
-  const { values, errors, handleChange, handleSubmit } = useForm(validate) as any;
+  const { values, errors, handleChange, handleSubmit } = useForm(
+    validate
+  ) as any;
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type];
