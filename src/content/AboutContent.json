@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Empowering Learning Through YouTube Tutorials",
+  "text": "Our YouTube channel is your passport to Django expertise. Dive into a world of friendly tutorials that make web development a breeze. Whether you're starting fresh or leveling up, we're here to guide you every step of the way. Let's learn, create, and inspire together!",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why Joining?",
+      "content": "Join Django Cameroon to connect, learn, and grow with fellow passionate developers. Together, we empower dreams and make coding an inspiring journey!",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Connect and Learn",
+      "content": "Join to learn, grow, and code together with fellow passionate developers. Together, we empower dreams and make coding an inspiring journey!",
       "icon": "notes.svg"
     }
   ]

@@ -33,7 +33,7 @@ export const CustomNavLink = styled("div")`
   }
 `;
 
-export const ContactWrapper = styled("div")<any>`
+export const ContactWrapper = styled("div") <any>`
   cursor: pointer;
   width: ${(p) => (p.width ? "100%" : "110px")};
   font-weight: 700;
@@ -50,7 +50,7 @@ export const Burger = styled("div")`
   display: none;
 
   svg {
-    fill: #2e186a;
+    fill: #08330D;
   }
 `;
 
@@ -68,7 +68,7 @@ export const Menu = styled("h5")`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #18216d;
+  color: #090C09;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 
@@ -86,7 +86,7 @@ export const Label = styled("span")`
   align-items: baseline;
 `;
 
-export const Outline = styled(MenuOutlined)<any>`
+export const Outline = styled(MenuOutlined) <any>`
   font-size: 22px;
 `;
 
